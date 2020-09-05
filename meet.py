@@ -10,22 +10,19 @@ getDay = int(datetime.datetime.today().weekday())
 times = [[1000, 1100], [1110, 1210], [1220, 1320]]
 ack = [False,False,False]
 
-usrname = ""
-passwrd = ""
-AISC = "https://meet.google.com/lookup/ei2m424nnc"
-# MCC = "https://meet.google.com/lookup/kacgotnvup"
-MCC = "https://meet.google.com/lookup/ctbxphenpe"
-DSIP = "https://meet.google.com/lookup/hf4ighuhkl"
-ILOC = "https://meet.google.com/lookup/celj2v3g7t" # CSL         amit viniByte
-# ILOC = "https://meet.google.com/lookup/bnk2ns26r4" # MIS       uTTu28
-DLOC = "https://meet.google.com/lookup/hh4k4bm4g3" # BDA    dedsec995
-# DLOC = "https://meet.google.com/lookup/dcq2zdtwyp" # ASSDF  uTTu28 vinibyte
+usrname = "ur email Id"
+passwrd = "ur pass"
+LEC1 = "google meet link"
+LEC2 = "google meet link"
+LEC3 = "google meet link"
+LEC4 = "google meet link" 
+LEC5 = "google meet link" 
 
-monday = [ILOC, DSIP, AISC]
-tuesday = [ILOC, AISC, DSIP]
-wednersday = [ILOC, MCC, DLOC]
-thursday = [MCC, DLOC, DSIP]
-friday = [DLOC, MCC, AISC]
+monday = [LEC1, LEC2, LEC3]
+tuesday = [LEC2, LEC1, LEC3]
+wednersday = [LEC1, LEC2, LEC3]
+thursday = [LEC3, LEC1, LEC2]
+friday = [LEC2, LEC3, LEC1]
 
 days = [monday, tuesday, wednersday, thursday, friday]
 
