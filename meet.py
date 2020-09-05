@@ -10,8 +10,8 @@ getDay = int(datetime.datetime.today().weekday())
 times = [[1000, 1100], [1110, 1210], [1220, 1320]]
 ack = [False,False,False]
 
-usrname = "amit.luhar@universal.edu.in"
-passwrd = "youknowwho"
+usrname = ""
+passwrd = ""
 AISC = "https://meet.google.com/lookup/ei2m424nnc"
 # MCC = "https://meet.google.com/lookup/kacgotnvup"
 MCC = "https://meet.google.com/lookup/ctbxphenpe"
